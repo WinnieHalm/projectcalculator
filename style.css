@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+    color: #333;
+  }
+  
+  #calculator {
+    width: auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  #display {
+    box-sizing: border-box;
+    width: calc(100% - 35px);
+    margin-bottom: 20px;
+    margin-left: 5px;
+    padding: 10px;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    text-align: right;
+    font-size: 2em;
+  }
+  
+  button {
+    width: 20%;
+    padding: 15px 0;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #d4d4d4;
+  }
+  
+  button.operation {
+    background-color:#FF5580;
+    color: #fff;
+  }
+
+  button.operation:hover {
+    background-color: #ffab62;
+  }
+  
+  button.span-two {
+    width: calc(40% + 15px);
+  }
+  /* adding some style for the brightness*/
+#brightness-controls {
+  margin-bottom: 20px; /* Add some space below the brightness control */
+}
+
+#brightness-controls label {
+  display: block; /* Display the label as a block element */
+  margin-bottom: 5px; /* Add some space below the label */
+  font-size: 20px; /* Adjust the font size */
+  font-weight: bold; /* Make the text bold */
+  color: #fd7e14; /* Set the text color */
+  /* Add more styling as needed */
+}
+
+#brightnessRange {
+  width: 100%; /* Make the range input element fill its container */
+}
+
+/* Add more styling as needed */
